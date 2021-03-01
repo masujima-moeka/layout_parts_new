@@ -22,12 +22,12 @@
   font-size: 18px;
   line-height: 22px;
 }
-.thumb_1{
+.left{
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
-.thumb_2{
+.right{
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
