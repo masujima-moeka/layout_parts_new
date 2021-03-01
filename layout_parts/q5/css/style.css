@@ -3,21 +3,21 @@
 .outbox{
   margin: 0 auto;
   width: 500px;
+  height: 500px;
   font-size: 30px;
   text-align: center;
   position: relative;
-  font-family: 'Tahoma'；
+  background-color: #ecf1f2;
+  line-height: 100px;
+  font-weight: 900;
 }
 .parts8{
-  box-sizing: border-box;
   width: 100px;
   height: 100px;
   background-color: #de70cf;
   position: absolute;
   top: 120px;
   left: 120px;
-  font-weight: 900;
-  line-height: 100px;
   z-index: 8;
 }
 .parts5{
@@ -27,8 +27,6 @@
   position: absolute;
   top: 360px;
   left: 200px;
-  font-weight: 900;
-  line-height: 100px;
   z-index: 5;
 }
 .parts1{
@@ -38,8 +36,6 @@
   position: absolute;
   top: 40px;
   left: 200px;
-  font-weight: 900;
-  line-height: 100px;
   z-index: 1;
 }
 .parts7{
@@ -49,8 +45,6 @@
   position: absolute;
   top: 200px;
   left: 40px;
-  font-weight: 900;
-  line-height: 100px;
   z-index: 7;
 }
 .parts4
@@ -60,8 +54,6 @@
   position: absolute;
   top: 280px;
   left: 280px;
-  font-weight: 900;
-  line-height: 100px;
   z-index: 4;
 }
 .parts6{
@@ -71,8 +63,6 @@
   position: absolute;
   top: 280px;
   left: 120px;
-  font-weight: 900;
-  line-height: 100px;
   z-index: 6;
 }
 .parts2{
@@ -82,8 +72,6 @@
   position: absolute;
   top: 120px;
   left: 280px;
-  font-weight: 900;
-  line-height: 100px;
   z-index: 2;
 }
 .parts3{
@@ -93,19 +81,17 @@
   position: absolute;
   top: 200px;
   left: 360px;
-  font-weight: 900;
-  line-height: 100px;
   z-index: 3;
 }
 .parts9{
   width: 100px;
   height: 100px;
   background-color: #2b69a3;
-  position: absolute;
-  font-weight: 900;
-  line-height: 100px;
-  top: -181px;
-  left: -140px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 .parts8::after{
   content: '';
