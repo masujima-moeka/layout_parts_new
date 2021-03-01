@@ -5,26 +5,26 @@
   table-layout: fixed; 
   line-height: 26px;
 }
-th{
+.table th{
+  text-align: center;
+  vertical-align: middle;
+  border: solid #dedede 1px;
+  padding: 10px;
+  background-color: #2244aa;
+  color: #ffffff;
+  font-size: 18px;
+}
+.table tbody td{
+  text-align: center;
   vertical-align: middle;
   border: solid #dedede 1px;
   padding: 10px;
 }
-tr:last-child{
+.table tbody:last-child{
   border-top: dashed #000 2px;
 }
-tr:nth-child(odd){
+.table tbody:nth-child(odd){
   background-color: #ecf1f2;
-}
-tr:first-child{
-  background-color: #2244aa;
-  color: #ffffff;
-  font-size: 18px;
-}
-th:first-child{
-  background-color: #2244aa;
-  color: #ffffff;
-  font-size: 18px;
 }
 /* 回答はここに書いてね */
 

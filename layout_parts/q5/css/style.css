@@ -69,10 +69,8 @@
   height: 100px;
   background-color: #2b69a3;
   position: fixed;
-  top: 0;
-  left: 0;
-  margin-top: 10px;
-  margin-left: 10px;
+  top: 10px;
+  left: 10px;
 }
 .parts8::after{
   content: '';

@@ -6,56 +6,46 @@
   clear: both;
 }
 .outbox{
+  box-sizing: border-box;
   width: 100%;
+  background-color: #eff3f4;
+  padding: 20px;
 }
 .table{
   display: table;
   text-align:center;
-  display: flex;
-  background-color: #eff3f4;
-  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
 }
 .table:first-child{
-  padding-bottom: 0;
+  margin-top: 0;
 }
-.above_left{
+.content{
   display: table-cell;
+  padding: 20px 0;
+}
+.orange{
   box-sizing: border-box;
   background-color: #fdc8b8;
   width: 100px;
-  padding: 20px 0;
 }
-.above_center{
-  display: table-cell;
-  flex: 1;
+.purple{
   background-color: #e0abd9;
-  padding: 20px 0;
 }
-.above_right{
-  display: table-cell;
-  box-sizing: border-box;
+.blue{
   background-color: #b6d8ed;
   width: 100px;
-  padding: 20px 0;
 }
-.under_left{
-  display: table-cell;
-  flex: 1;
+.yellow{
   background-color: #e5d32e;
-  padding: 20px 0;
 }
-.under_center{
-  display: table-cell;
-  flex: 1;
+.red{
   background-color: #ec8f9a;
-  padding: 20px 0;
 }
-.under_right{
-  display: table-cell;
+.green{
   box-sizing: border-box;
   background-color: #8fdcad;
   width: 500px;
-  padding: 20px 0;
 }
 /* 回答はここに書いてね */
 
