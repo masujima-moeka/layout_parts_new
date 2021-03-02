@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+.out{
+
+}
+.inner{
+
+}
+.float_left{
+  box-sizing: border-box;
+  width: 225px;
+  float: left;
+}
+.float_right{
+  box-sizing: border-box;
+  width: 225px;
+  float: left;
+  margin-left: 50px;
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */

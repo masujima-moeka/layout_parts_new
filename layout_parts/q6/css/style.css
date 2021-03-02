@@ -4,22 +4,18 @@
   text-align: center;
   position: relative;
 }
+.common{
+  width: 90px;
+  padding: 10px 0;
+  background-color: #e6f2ff;
+  text-align:center;
+}
 .text-align{
   display: inline-block;
-  width: 90px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align:center;
-  background-color: #e6f2ff;
 }
 .margin{
-  text-align: center;
   box-sizing: border-box;
   margin: 0 auto;
-  width: 90px;
-  background-color: #e6f2ff;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .table_outbox{
   display: table;
@@ -44,7 +40,7 @@
   background-color: #fff;
   padding: 10px;
 }
-.fixed_box{
+.fixed_variable{
   position: relative;
 }
 .fixed{
@@ -54,9 +50,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-}
-.variable_box{
-  position: relative;
 }
 .variable{
   position: absolute;

@@ -6,6 +6,7 @@
   clear: both;
 }
 .outbox {
+  box-sizing: border-box;
   margin: auto;
   width: 940px;
   padding: 20px;

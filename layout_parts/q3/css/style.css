@@ -20,10 +20,10 @@
   border: solid #dedede 1px;
   padding: 10px;
 }
-.table tbody:last-child{
+.table tbody tr:last-child{
   border-top: dashed #000 2px;
 }
-.table tbody:nth-child(odd){
+.table tbody tr:nth-child(even){
   background-color: #ecf1f2;
 }
 /* 回答はここに書いてね */
