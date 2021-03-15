@@ -1,21 +1,53 @@
 @charset "UTF-8";
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.common{
+  box-sizing: border-box;
+  width: 225px;
+}
+.float{
+  float: left;
+}
+.left{
+  margin-right: 50px;
+}
 .out{
-
+  display: table;
 }
 .inner{
-
+  display: table-cell;
 }
-.float_left{
-  box-sizing: border-box;
-  width: 225px;
-  float: left;
+.inline{
+  font-size:0;
 }
-.float_right{
-  box-sizing: border-box;
-  width: 225px;
+.display{
+  font-size: 16px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-items: flex-end;
+}
+.inline_left{
   float: left;
+  width: 300px;
+}
+.inline_right{
+  float: left;
+  width: 100%;
+  margin-right: -300px;
+}
+.text_right{
+  margin-right: 300px;
   margin-left: 50px;
+}
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
