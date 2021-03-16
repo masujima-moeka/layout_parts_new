@@ -12,8 +12,7 @@
   content: "";
   position: absolute;
   top: 100%;
-  left: 9%;
-  margin-left: -16px;
+  left: 6%;
   border: 18px solid transparent;
   border-top: 18px solid #fff;
   z-index: 2;
@@ -22,8 +21,7 @@
   content: "";
   position: absolute;
   top: 100%;
-  left: 9%;
-  margin-left: -23px;
+  left: 4.6%;
   border: 25px solid transparent;
   border-top: 25px solid #222;
   z-index: 1;
