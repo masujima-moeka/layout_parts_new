@@ -8,23 +8,21 @@
   padding: 20px;
   border-radius: 30px;
 }
-.textbox::before{
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 6%;
-  border: 18px solid transparent;
-  border-top: 18px solid #fff;
-  z-index: 2;
-}
 .textbox::after{
   content: "";
   position: absolute;
-  top: 100%;
-  left: 4.6%;
+  top: 152px;
+  left: 32px;
+  border: 18px solid transparent;
+  border-top: 18px solid #fff;
+}
+.textbox::before{
+  content: "";
+  position: absolute;
+  top: 152px;
+  left: 25px;
   border: 25px solid transparent;
   border-top: 25px solid #222;
-  z-index: 1;
 }
 /* 回答はここに書いてね */
 
